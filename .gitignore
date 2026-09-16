@@ -1,0 +1,21 @@
+# secrets
+.env
+*.env.local
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+# data produced at runtime
+backend/uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+# Node
+frontend/node_modules/
+frontend/build/
+# editors
+.idea/
+.vscode/
+.DS_Store
